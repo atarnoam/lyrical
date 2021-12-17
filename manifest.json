@@ -2,5 +2,20 @@
     "name": "Lyrical",
     "description": "See song lyrics on youtube",
     "version": "0.1",
-    "manifest_version": 3
+    "manifest_version": 3,
+
+    "icons": {
+        "128": "images/note.png"
+    },
+
+    "action": {
+        "default_icon": "images/note.png",
+        "default_popup": "src/popup.html"
+    },
+
+    "permissions": [
+        "activeTab",
+        "storage",
+        "tabs"
+    ]
 }
